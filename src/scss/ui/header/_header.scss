@@ -44,6 +44,14 @@
         }
     }
     
+    &__texto {
+        color: v.$blanco;
+        display: none;
+        @include m.tablet { 
+            display: block;
+        }
+    }
+    
 
 }
 

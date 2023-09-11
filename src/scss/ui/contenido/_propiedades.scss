@@ -21,7 +21,7 @@
     background-color: v.$blanco;
 
     &__imagen {
-        aspect-ratio: 10 / 6;
+        aspect-ratio: 5 / 3;
         background-size: auto 150%;
         position: relative;
     }
@@ -54,7 +54,7 @@
         font-size: 3rem;
         margin: 0;
     }
-    
+
     &__enlace {
         @include m.boton(v.$primario, v.$blanco);
         display: block;

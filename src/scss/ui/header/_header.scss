@@ -36,5 +36,14 @@
         }
     }
    
+    &__heading {
+        color: v.$blanco;
+        text-align: center;
+        @include m.tablet {
+            text-align: left;
+        }
+    }
+    
+
 }
 

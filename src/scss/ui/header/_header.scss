@@ -8,6 +8,11 @@
     padding: 3rem 0;
     position: relative;
 
-   
+
+    @include m.tablet { 
+        padding: 3rem 0 20rem 0;
+    }
+
+    
 }
 

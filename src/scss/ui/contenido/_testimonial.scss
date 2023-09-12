@@ -55,3 +55,14 @@
 
 }
 
+.entrada {
+    background-color: v.$blanco;
+    margin-bottom: 2rem;
+
+    @include m.tablet { 
+        @include m.grid(5, 2rem);
+        align-items: center;
+    }
+    
+}
+

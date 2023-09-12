@@ -24,5 +24,16 @@
 
         }
     }
-   
+
+    &__contenido {
+        padding: 5rem;
+        grid-row: 2 / 3;
+
+        @include m.tablet { 
+            padding: 10rem 5rem;
+            grid-column: 2 / 3;
+        }
+    }
+    
+
 }

@@ -11,7 +11,6 @@
     @include m.tablet { 
         background-image: linear-gradient(to right, transparent 0%, transparent 50%, v.$primario 50%, v.$primario 100%), url(../img/destacada.jpg);
         background-position: center, -50rem center;
-
     }
 
     &__grid {

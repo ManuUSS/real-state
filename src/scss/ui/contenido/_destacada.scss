@@ -53,4 +53,9 @@
         font-weight: 700;
     }
 
+    &__enlace {
+        @include m.boton(v.$blanco, v.$primario);
+        display: block;
+    }
+
 }

@@ -13,5 +13,10 @@
             grid-column: 2 / 4;
         }
     }
+
+    &__heading {
+        @include m.heading(true);
+    }
+
 }
 

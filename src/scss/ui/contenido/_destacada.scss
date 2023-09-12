@@ -35,5 +35,9 @@
         }
     }
     
+    &__heading {
+        color: v.$blanco;
+        text-transform: uppercase;
+    }
 
 }

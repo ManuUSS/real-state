@@ -76,5 +76,11 @@
         width: 100%;
     }
 
+    &__contenido {
+        padding: 1rem;
+        @include m.tablet { 
+            grid-column: 3 / 6;
+        }
+    }
 }
 

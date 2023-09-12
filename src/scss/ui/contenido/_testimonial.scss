@@ -86,5 +86,13 @@
     &__meta {
         font-size: 1.4rem;
     }
+
+    &__enlace {
+        @include m.boton(v.$primario, v.$blanco);
+        display: block;
+        @include m.tablet { 
+            display: inline-block;
+        }
+    }
 }
 

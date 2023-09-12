@@ -70,5 +70,11 @@
         }
     }
     
+    &__imagen {
+        height: 30rem;
+        object-fit: cover;
+        width: 100%;
+    }
+
 }
 

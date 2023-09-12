@@ -64,5 +64,11 @@
         align-items: center;
     }
     
+    &__imagen-contenedor {
+        @include m.tablet { 
+            grid-column: 1 / 3;
+        }
+    }
+    
 }
 

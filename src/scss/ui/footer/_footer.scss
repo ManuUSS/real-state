@@ -23,5 +23,9 @@
         color: v.$blanco;
     }
 
+    &__navegacion {
+        display: flex;
+        flex-direction: column;
+    }
     
 }

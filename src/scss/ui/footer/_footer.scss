@@ -28,4 +28,13 @@
         flex-direction: column;
     }
     
+    &__link {
+        color: v.$blanco;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
 }
